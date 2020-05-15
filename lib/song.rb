@@ -1,7 +1,7 @@
 class Song
   #attr_accessor for each initialize statement
   attr_accessor :name, :artist, :genre
-  
+
   @@count = 0
 
   def self.count
@@ -17,7 +17,7 @@ class Song
   end
   #placeholder array for all artists added to the class.
   @@artists = []
-  
+
   def self.artists
     #the .uniq method is used to make sure no two artists are duplicated in the genres array
     @@artists.uniq
